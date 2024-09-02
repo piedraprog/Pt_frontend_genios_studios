@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { TableUI } from "@/components/ui/table";
 import Image from "next/image";
-import TopBar from "../../../(public)/homepage/_components/publicTopBar";
+import PublicTopBar from "../_components/publicTopBar";
 
-const Dashboard = () => {
+const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <TopBar />
+      <PublicTopBar />
       {/* ... */}
 
       {/* Dashboard content */}
@@ -122,5 +122,3 @@ const Dashboard = () => {
     </div >
   )
 }
-
-export default Dashboard;

@@ -8,7 +8,7 @@ interface PrivateLayoutProps {
 
 const PrivateLayout = ({ children }: PrivateLayoutProps) => {
   return (
-    <main className="mb-16 rounded-md relative bg-[#eff3f3] ">
+    <main className="rounded-md">
       {children}
     </main>
   )
